@@ -1,0 +1,11 @@
+<!--pages/animal/index.wxml-->
+<view class="ripple" style="{{rippleStyle}}"></view>
+<view class="container" bindtouchstart="containerTap">
+
+
+<view class='icon' bindtap='iconAnimal'></view>
+
+
+
+
+</view>

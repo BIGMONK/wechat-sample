@@ -1,0 +1,17 @@
+{
+  "name": "Weixinprogram",
+  "authors": [
+    "3a0_100007028830_duanjunfeng <3a0_100007028830_duanjunfeng@git.cloud.tencent.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
