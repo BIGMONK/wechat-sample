@@ -98,7 +98,7 @@
   font-weight: bold;
   font-size: 28rpx;
 }
-.tui-h5{
+.tui-h5{ 
   font-size: 22rpx;
   color: #8f8f94;
 }

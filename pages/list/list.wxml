@@ -13,3 +13,4 @@
   <view class="tui-list-head">圆角列表</view>
   <template wx:for="{{menu}}" is="listNoneOnly" data="{{item}}"></template>
 </view>
+ 

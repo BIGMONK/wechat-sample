@@ -7,7 +7,7 @@
   height: 90rpx;
   overflow: hidden;
 }
-.gallery-name{
+.gallery-name{ 
   display: block;
   height: 50rpx;
   line-height: 50rpx;

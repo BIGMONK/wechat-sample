@@ -1,0 +1,8 @@
+<!--pages/websocket/index.wxml-->
+<view class="page">
+ 
+    <button bindtap="connectWebsocket" type="primary">连接websocket</button>
+
+    <text class='text' style='word-break: break-all ' >{{log}}</text>
+
+</view>

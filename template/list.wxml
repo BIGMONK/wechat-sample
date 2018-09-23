@@ -3,7 +3,7 @@
   <view class="tui-menu-list">
     <navigator url="{{item.url}}">
       <block>      
-        <text>{{item.title}}</text>
+        <text>{{item.title}}</text> 
       </block>
     </navigator>
   </view>

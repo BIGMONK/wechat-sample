@@ -1,17 +1,17 @@
 .tui-list-box{
-  border-bottom: 1px solid #c8c7cc;
+  border-bottom: 1px solid #c8c711;
   background-color: #fff;
 }
-.tui-list-head{
+.tui-list-head{ 
   background-color: #efeff4;
   line-height: 80rpx;
   color: #6d6d72;
   padding: 0 10px;
   font-size: 35rpx;
-  border-bottom: 1px solid #c8c7cc;
+  border-bottom: 1px solid #330cd1;
 }
 .tui-list-box-raduis{
-  border: 1px solid #c8c7cc;
+  border: 1px solid #12c781;
   border-radius: 4px;
   margin: 10px;
   overflow: hidden;

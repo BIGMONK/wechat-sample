@@ -1,5 +1,9 @@
 var homeMenu = [
   {
+    'title': 'websocket',
+    'url': '../../pages/websocket/index'
+  },
+  {
     'title':'accordion（折叠面板）',
     'url': '../../pages/accordion/accordion'
   },{
@@ -23,9 +27,6 @@ var homeMenu = [
   }, {
     'title': 'dialog（消息框）',
     'url': '../../pages/dialog/dialog'
-  }, {
-    'title': 'gallery slider（图片轮播）',
-    'url': '../../pages/swiper/swiper'
   }, {
     'title': 'gallery table（图文表格）',
     'url': '../../pages/gallerytable/gallerytable'
@@ -62,6 +63,9 @@ var homeMenu = [
   }, {
     'title': 'range（滑块）',
     'url': '../../pages/slider/slider'
+  }, {
+    'title': 'swiper（图片轮播）',
+    'url': '../../pages/swiper/swiper'
   }, {
     'title': 'switch（开关）',
     'url': '../../pages/switch/switch'

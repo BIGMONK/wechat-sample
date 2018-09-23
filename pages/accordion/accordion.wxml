@@ -21,6 +21,7 @@
       </view>
     </view>
   </view>
+  
   <view class="tui-menu-list {{isShowFrom2 ? 'tui-shangjiantou' : 'tui-xiajiantou'}}">
     <view bindtap="showFrom" data-param="2"><text>轮播图片</text></view>
     <view class="{{isShowFrom2 ? '' : 'tui-hide'}}">
@@ -40,6 +41,7 @@
       </swiper>
     </view>
   </view>
+
   <view class="tui-menu-list {{isShowFrom3 ? 'tui-shangjiantou' : 'tui-xiajiantou'}}">
     <view bindtap="showFrom" data-param="3"><text>文字排版</text></view>
     <view class="{{isShowFrom3 ? '' : 'tui-hide'}}">
