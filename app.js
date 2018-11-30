@@ -5,7 +5,15 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-
+    try {
+      const res = wx.getSystemInfoSync()
+      // console.log(res)      
+      wx.setStorageSync("pixelRatio", res.pixelRatio)
+      wx.setStorageSync("windowWidth", res.windowWidth)
+    } catch (e) {
+      // Do something when catch error
+      console.log(e)
+    }
     // 登录
     wx.login({
       success: res => {

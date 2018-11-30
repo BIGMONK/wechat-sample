@@ -2,6 +2,7 @@ var Locker = class {
   constructor(page, opt) {
     // console.log("constructor=" + JSON.stringify(page) + "************" + JSON.stringify(opt))
     this.page = page;
+    console.log(opt)
     var obj = opt || {};
     this.width = obj.width || 300;
     this.height = obj.height || 300;

@@ -110,7 +110,7 @@
   font-size: 36rpx;
   color: #8f8f94;
 }
-/*文字列表样式  */
+/*文字列表样式  */ 
 
 .tui-menu-list{
   line-height: 80rpx;

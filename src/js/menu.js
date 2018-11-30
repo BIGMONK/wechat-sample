@@ -1,18 +1,27 @@
-var homeMenu = [
+var homeMenu = [{
+    'title': '动画',
+    'url': '../../pages/animal/index'
+  }, {
+    'title': '动点',
+    'url': '../../pages/movepoints/index'
+  }, {
+    'title': '动圈',
+    'url': '../../pages/runcircle/index'
+  },
   {
     'title': 'websocket',
     'url': '../../pages/websocket/index'
   },
   {
-    'title':'accordion（折叠面板）',
+    'title': 'accordion（折叠面板）',
     'url': '../../pages/accordion/accordion'
-  },{
+  }, {
     'title': 'actionsheet（操作表）',
     'url': '../../pages/actionsheet/actionsheet'
-  },{
+  }, {
     'title': 'button（按钮）',
     'url': '../../pages/button/button'
-  },{
+  }, {
     'title': 'cardview（卡片视图）',
     'url': '../../pages/cardview/cardview'
   }, {
@@ -81,9 +90,6 @@ var homeMenu = [
   }, {
     'title': 'image viewer（图片预览）',
     'url': '../../pages/previewimage/previewimage'
-  }, {
-    'title': '动画',
-    'url': '../../pages/animal/index'
   }
 ]
 module.exports = {

@@ -1,0 +1,5 @@
+<!--pages/runcircle/index.wxml-->
+<text>pages/runcircle/index.wxml</text>
+<canvas canvas-id="canvas-circle" id='canvas-id' class='out-circle'></canvas>
+<button bindtap='start'>开始</button>
+<button bindtap='stop'>停止</button>

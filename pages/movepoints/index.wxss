@@ -1,0 +1,24 @@
+page {
+  background-color: yellow;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+
+.page-body {
+  padding: 20rpx 0;
+  background: red;
+}
+
+.page-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: gray;
+}
+
+.canvas {
+  width: 305px;
+  height: 305px; 
+}

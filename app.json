@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/runcircle/index",
     "pages/websocket/index",
     "pages/lock/lock",
     "pages/table/table",
@@ -28,8 +29,8 @@
     "pages/navbar/navbar",
     "pages/number/number",
     "pages/previewimage/previewimage",
-    "pages/animal/index"
-    
+    "pages/animal/index",
+    "pages/movepoints/index"    
   ],
   "window": {
     "navigationBarTitleText": "Rattenking 博客"

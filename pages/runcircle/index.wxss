@@ -1,0 +1,13 @@
+/* pages/runcircle/index.wxss */
+.out-circle {
+  width: 602rpx;
+  height: 602rpx;
+  align-self: center;
+  z-index: 41;
+  /* 动画效果  动画周期   动画速度   动画重复 *//* animation: outRotate 10s linear infinite; *//* -webkit-clip-path: circle(50% at 50% 50%); */
+  /* clip-path: circle(48% at 50% 50%); */
+  /* -webkit-clip-path: circle(48% at 50% 50%); */
+  background: wheat;
+}
+
+
