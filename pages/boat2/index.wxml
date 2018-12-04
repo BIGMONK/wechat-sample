@@ -1,0 +1,13 @@
+<!--pages/boat/index.wxml-->
+<image class='boat-bg' mode='scaleToFill' src='boat_bg.png'></image>
+
+<view class='boat-body-parent'>
+  <image class='boat-body' mode='scaleToFill' src='boat_body.png'></image>
+  <view class='boat-quant'>
+    <!-- 左 -->
+    <image class="{{animation?'boat-left':'boat-left-stop'}}" mode='scaleToFill' src="{{reversal?'boat_left2.png':'boat_left.png'}}"></image>
+    <!-- 右 -->
+    <image class="{{animation?'boat-right':'boat-right-stop'}}" mode='scaleToFill' src="{{reversal?'boat_right2.png':'boat_right.png'}}"></image>
+  </view>
+</view>
+<text class='gogo' bindtap='gogo'>{{going?'Stop':'Go'}}</text>

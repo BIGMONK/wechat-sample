@@ -1,6 +1,6 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function() {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -42,12 +42,17 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    data: 123
   },
   /*打开页面*/
-  open_url: function (url, fn) {
+  open_url: function(url, fn) {
     wx.navigateTo({
       url: url,
     })
+  },
+  setGlobalData: function(o) {
+    this.globalData.data = o
+
   }
 })

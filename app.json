@@ -30,7 +30,10 @@
     "pages/number/number",
     "pages/previewimage/previewimage",
     "pages/animal/index",
-    "pages/movepoints/index"    
+    "pages/movepoints/index",
+    "pages/apptest/index",
+    "pages/boat/index",
+    "pages/boat2/index"
   ],
   "window": {
     "navigationBarTitleText": "Rattenking 博客"

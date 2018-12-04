@@ -35,6 +35,15 @@ Page({
 
   drawCircleOut: function() {
     // console.log("drawCircleOut1:" + new Date())
+    ctx.beginPath();
+    ctx.setStrokeStyle('red')
+    ctx.moveTo(0, 0)
+    ctx.lineTo(cw / 2, cw / 4)
+    ctx.arcTo(cw / 2, cw / 4, cw * 3 / 4, cw * 3 / 4, cw / 4)
+    ctx.lineTo(0, cw)
+    ctx.stroke()
+   
+
     stepCounts = stepCounts + 1;
 
     // var cw = this.windowWidth / 750 * 600
@@ -54,6 +63,22 @@ Page({
     var count = 90;
     for (var i = 0; i < count; i++) {
       var radian = 2 * Math.PI * i / count
+      var radian2 = radian - (step * stepCounts)
+      var x = Math.sin(radian2);
+      var y = Math.cos(radian2);
+      var x3 = r3 * x + cw / 2;
+      var y3 = r3 * y + cw / 2;
+      var x4 = r4 * x + cw / 2;
+      var y4 = r4 * y + cw / 2;
+
+      ctx.beginPath()
+      ctx.setStrokeStyle('#89C25C')
+      ctx.lineCap = "round";
+      ctx.lineWidth = this.windowWidth / 750 * 4;
+      ctx.moveTo(x3, y3)
+      ctx.lineTo(x4, y4)
+      ctx.stroke()
+      
       var radian1 = radian + (step * stepCounts)
       var x = Math.sin(radian1);
       var y = Math.cos(radian1);
@@ -73,22 +98,11 @@ Page({
       ctx.lineTo(x2, y2)
       ctx.stroke()
 
-      var radian2 = radian - (step * stepCounts)
-      var x = Math.sin(radian2);
-      var y = Math.cos(radian2);
-      var x3 = r3 * x + cw / 2;
-      var y3 = r3 * y + cw / 2;
-      var x4 = r4 * x + cw / 2;
-      var y4 = r4 * y + cw / 2;
-
-      ctx.beginPath()
-      ctx.lineCap = "round";
-      ctx.lineWidth = this.windowWidth / 750 * 4;
-      ctx.setStrokeStyle('#89C25C')
-      ctx.moveTo(x3, y3)
-      ctx.lineTo(x4, y4)
-      ctx.stroke()
+     
     }
+
+   
+
     ctx.draw(false) //是否保留当前画布内容
     // console.log("drawCircleOut2:" + new Date())
   },

@@ -1,0 +1,3 @@
+<!--pages/apptest/index.wxml-->
+<text>pages/apptest/index.wxml</text>
+<button bindtap='setAppData'>设置全局变量</button>

@@ -1,12 +1,12 @@
 // pages/animal/index.js
-var angle=0
+var angle = 0
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+beat:true
   },
 
   /**
@@ -19,6 +19,7 @@ Page({
       duration: 1000,
       timingFunction: 'linear',
     })
+    angle = 0
   },
 
   /**
@@ -56,18 +57,33 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function() {
-    this.animation()
-      setInterval(this.animation,1000)
+    this.start()
   },
 
+  start: function() {
+    if (this.animationId == undefined) {
+      this.animation()
+      this.animationId = setInterval(this.animation, 1000)
+    }
+    this.setData({
+      beat: true
+    })
+  },
   animation: function() {
     // this.animationInner.scale(2).step()
-    angle=angle+45
+    angle = angle + 45
     this.animationInner.rotate(angle).step()
     this.setData({
       animationInner: this.animationInner.export()
     })
-   
+  },
+
+  stop: function() {
+    clearInterval(this.animationId)
+    this.animationId = undefined
+    this.setData({
+      beat:false
+    })
   },
 
   /**
@@ -81,7 +97,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function() {
-
+    this.stop()
   },
 
   /**

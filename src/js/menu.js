@@ -1,7 +1,19 @@
 var homeMenu = [{
+    'title': 'AppTest',
+    'url': '../../pages/apptest/index'
+  },
+  {
     'title': '动画',
     'url': '../../pages/animal/index'
+  }, 
+  {
+    'title': '船',
+    'url': '../../pages/boat/index'
   }, {
+    'title': '船2',
+    'url': '../../pages/boat2/index'
+  }, 
+  {
     'title': '动点',
     'url': '../../pages/movepoints/index'
   }, {
