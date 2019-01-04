@@ -35,13 +35,13 @@ Page({
 
   drawCircleOut: function() {
     // console.log("drawCircleOut1:" + new Date())
+    
     ctx.beginPath();
-    ctx.setStrokeStyle('red')
-    ctx.moveTo(0, 0)
-    ctx.lineTo(cw / 2, cw / 4)
-    ctx.arcTo(cw / 2, cw / 4, cw * 3 / 4, cw * 3 / 4, cw / 4)
-    ctx.lineTo(0, cw)
-    ctx.stroke()
+    ctx.setStrokeStyle('blue')
+    ctx.beginPath();
+    ctx.moveTo(cw/4, cw/2);          // Create a horizontal line
+    ctx.arcTo(cw/2, 0, 3/4*cw, cw/2, 80); // Create an arc   
+    ctx.stroke();                // Draw it
    
 
     stepCounts = stepCounts + 1;

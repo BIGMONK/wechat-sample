@@ -1,1 +1,4 @@
 /* pages/apptest/index.wxss */
+.direction-test{
+  direction: rtl;
+}

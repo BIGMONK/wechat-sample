@@ -33,9 +33,18 @@
     "pages/movepoints/index",
     "pages/apptest/index",
     "pages/boat/index",
-    "pages/boat2/index"
+    "pages/boat2/index",
+    "pages/capture/index",
+    "pages/arraysort/index",
+    "pages/screen/index",
+    "pages/ruler/index",
+    "pages/donate/donate"
   ],
   "window": {
     "navigationBarTitleText": "Rattenking 博客"
+  },
+  "usingComponents": {
+    "wxc-progress": "dist/packages/@minui/wxc-progress/dist/index",
+    "van-popup": "miniprogram_npm/vant-weapp/popup/index"
   }
 }

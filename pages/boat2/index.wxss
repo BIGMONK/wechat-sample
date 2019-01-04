@@ -7,7 +7,8 @@ page {
   flex-direction: column;
   align-items: center;
 }
-.gogo{
+
+.gogo {
   position: absolute;
   z-index: 100;
 }
@@ -28,13 +29,13 @@ page {
   z-index: 1;
   justify-content: flex-end;
   position: absolute;
+  animation: body 2s ease-in-out infinite;
 }
 
 .boat-body {
   width: 209rpx;
   height: 770rpx;
   z-index: 2;
-  animation: body 2s ease-in-out infinite;
   /* -webkit-animation: body 2s ease-in-out infinite; */
   position: absolute;
 }
@@ -58,7 +59,6 @@ page {
   flex-direction: row;
   z-index: 3;
   bottom: 300rpx;
-  animation: body 2s ease-in-out infinite;
   position: absolute;
 }
 
@@ -74,12 +74,6 @@ page {
   width: 321rpx;
   height: 157rpx;
   animation: left 2s ease-in-out infinite;
-}
-
-.boat-left-stop {
-  width: 321rpx;
-  height: 157rpx;
-  animation: none;
 }
 
 @keyframes left {
@@ -116,8 +110,6 @@ page {
   animation: right 2s ease-in-out infinite;
 }
 
-.boat-right-stop {
-  width: 321rpx;
-  height: 157rpx;
+.animation-stop {
   animation: none;
 }

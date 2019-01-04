@@ -1,0 +1,24 @@
+<!--pages/capture/index.wxml-->
+<text>截图pages/capture/index.wxml</text>
+<button bindtap='showResult'>结果</button>
+
+<van-popup custom-class='result-dialog' show="{{showDialog}}" z-index='99' position="top" close-on-click-overlay="false" overlay="true">
+  <view class='dialog-root'>
+    <view class='btnss'>
+      <button bindtap='save'>炫耀一下</button>
+      <button bindtap='back'>返回</button>
+    </view>
+    <text style='background:white;'>好多鱼</text>
+  </view>
+</van-popup>
+
+<van-popup custom-class='result-dialog2' show="{{showDialog2}}" z-index='100' position="top" close-on-click-overlay="false" overlay="true">
+  <view class='dialog-root2'>
+
+
+    <canvas canvas-id='share-image' class='share-image {{shareImageHidden}}' ></canvas>
+    <image class='share-image-show' src='{{shareimageshow}}'></image>
+    <button class='back2' bindtap='back2'>X</button>
+
+  </view>
+</van-popup>

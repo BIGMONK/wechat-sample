@@ -2,9 +2,9 @@
 var banner = require("../../src/js/banner.js");
 Page({
   data: {
-    indicatorDots: true,
-    vertical: false,
-    autoplay: true,
+    indicatorDots: false,
+    vertical: true,
+    autoplay: false,
     interval: 3000,
     duration: 800,
     banner_url: banner.bannerList

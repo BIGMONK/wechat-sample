@@ -3,8 +3,11 @@
   控制轮播开关：
   <switch class="tui-fr" checked='{{autoplay}}' bindchange='autoplaySwiper'></switch>
 </view>
+
 <view>
+
   <swiper class="tui-swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color="#777" indicator-active-color="yellow">
+   
     <block wx:for-items="{{banner_url}}">
       <swiper-item>
         <block wx:if="{{item}}">
@@ -15,5 +18,7 @@
         </block>
       </swiper-item>
     </block>
+    
   </swiper>
+
 </view>

@@ -1,0 +1,5 @@
+<!--pages/arraysort/index.wxml-->
+<text>pages/arraysort/index.wxml</text>
+<view wx:for="{{array}}">
+<text>{{item}}</text>
+</view>

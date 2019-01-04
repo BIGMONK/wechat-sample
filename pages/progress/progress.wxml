@@ -33,4 +33,7 @@
       <text data-id="90" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 90 ? 'tui-active' : ''}}">90%</text>
     </view>
   </view>
+  <wxc-progress percent="60" active-color="#ac89ff"></wxc-progress>
 </view>
+
+

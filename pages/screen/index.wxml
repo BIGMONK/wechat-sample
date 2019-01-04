@@ -1,0 +1,8 @@
+<!--pages/screen/index.wxml-->
+<text style='width:50%;heigh:10%;background:red'>width:50%;heigh:10%</text>
+<text style='width:160px;heigh:10%;background:green'>160px</text>
+<text style='width:160rpx;heigh:10%;background:blue'>160rpx</text>
+<text style='width:375rpx;heigh:10%;background:blue'>375rpx</text>
+<text class='class'>50%</text>
+<text class='class1'>160rpx</text>
+<text class='class2'>160px</text>

@@ -1,1 +1,4 @@
 /* pages/swiper/swiper.wxss */
+.tui-swiper{
+  background: red;
+  }
