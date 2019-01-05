@@ -38,7 +38,9 @@
     "pages/arraysort/index",
     "pages/screen/index",
     "pages/ruler/index",
-    "pages/donate/donate"
+    "pages/donate/donate",
+    "pages/pulltorefresh/index",
+    "pages/text/index"
   ],
   "window": {
     "navigationBarTitleText": "Rattenking 博客"

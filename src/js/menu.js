@@ -1,8 +1,14 @@
-var homeMenu = [
+var homeMenu = [{
+  title: 'text',
+  url: '../../pages/text/index'
+},{
+    title: '下拉刷新',
+    url: '../../pages/pulltorefresh/index'
+  },
   {
     title: '刻度尺',
     url: '../../pages/ruler/index'
-}, {
+  }, {
     title: '刻度尺2',
     url: '../../pages/donate/donate'
   },

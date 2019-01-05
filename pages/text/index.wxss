@@ -1,0 +1,12 @@
+/* pages/text/index.wxss */
+
+.text{
+  font-size:28rpx;
+height:70rpx;
+line-height:35rpx;
+ 
+display: block;
+overflow: hidden;
+white-space: nowrap;
+text-overflow:ellipsis;
+}

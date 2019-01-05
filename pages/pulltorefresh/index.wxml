@@ -1,0 +1,26 @@
+<!--pages/pulltorefresh/index.wxml-->
+
+<view class='list-parent'>
+
+  <view class='list-title'>
+    <text style='margin-left:48rpx;'>名次</text>
+    <text style='margin-left:38rpx;'>头像</text>
+    <text style='margin-left:77rpx;'>用户</text>
+    <text style='margin-left:152rpx;'>时间(min)</text>
+    <view class='first-line'></view>
+  </view>
+
+  <view class="item-first">
+    <image class="item-first-bg" mode='scaleToFill' src='first_bg.png'></image>
+    <text>index</text>
+  </view>
+  <scroll-view scroll-y class='scroll-view' bindscrolltoupper="upper" bindscrolltolower="lower">
+    <block wx:for="{{list}}" wx:key='index'>
+      <view class="item-other">
+        <text>{{index}}</text>
+        <image class='item-other-line' src='item_other_line.png' mode='scaleToFill'></image>
+      </view>
+    </block>
+  </scroll-view>
+
+</view>
